@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Add a title here -->
-
+    <title>WeatherPy Comparisons</title>
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Our own CSS stylesheet -->
@@ -50,6 +50,37 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
+    <!-- Uses a Bootstrap grid for the visualizations. 
+    This grid must contain two visualizations across a medium or large screen 
+    and one visualization across an extra-small or small screen. -->
+    <div class="container">
+      <!--Will use medium column sizes for double-wide image row-->
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <div class="box skyblue">
+            <img class="img-fluid" src="assets/images/Cloudiness.png" alt="Cloudiness Scatter Plot">
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="box skyblue">
+            <img class="img-fluid" src="assets/images/Humidity.png" alt="Humidity Scatter Plot">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-xs-12">
+          <div class="box skyblue">
+            <img class="img-fluid" src="assets/images/Temp.png" alt="Temp Scatter Plot">
+          </div>
+        </div>
+        <div class="col-md-6 col-xs-12">
+          <div class="box skyblue">
+            <img class="img-fluid" src="assets/images/Wind.png" alt="Wind Scatter Plot">
+          </div>
+        </div>
+      </div>
+      
+    </div>
     <!-- End of container -->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
