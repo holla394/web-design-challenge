@@ -8,14 +8,36 @@
   
   .skyblue {
     background: deepskyblue;
+    width: auto;
+    height: auto;
   }
   
   .purple {
     background: rebeccapurple;
+    width: auto;
+    height: auto;
   }
   
   .red {
     background: indianred;
+    width: auto;
+    height: auto;
+  }
+
+  .grey {
+    background: grey;
+  }
+
+  .light-grey {
+    background: rgb(202, 202, 202);
+    width: auto;
+    height: auto;
+  }
+
+  .body-background
+  {
+    width: fit-content;
+
   }
   /* Giving our navbar some padding and a background color */
 .navbar {
